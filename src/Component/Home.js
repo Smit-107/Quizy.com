@@ -189,7 +189,7 @@ const Home = () => {
                 className="me-3 cursor-pointer"
                 onClick={handleShow}
               ></FaListUl>
-              Quizy Lite
+              Quiz Era
             </span>
           </Col>
           <Col xs={"auto"} className="flex-grow-1 p-0">
