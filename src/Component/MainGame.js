@@ -239,8 +239,9 @@ const MainGame = () => {
                       }}
                     >
                       <span className="" style={{marginTop:'3px'}}>{val===1 ? value.quiz_option_a:val===2 ? value.quiz_option_b:val===3 ? value.quiz_option_c:val===4 ? value.quiz_option_d :''}</span>
-                        <img className={`sad ${answer==="incorrect" &&  clickedIndex === inx ? 'd-block' : 'd-none'}`} id="sadoptionA" src="https://st-win.qureka.com/img/sad.png" alt=""></img>
-                        <img className={`smile ${answer==="correct" &&  clickedIndex === inx ? 'd-block' : 'd-none'}`} id="smileoptionA" src="https://st-win.qureka.com/img/smile.png" alt=""></img>
+                        <img className={`sad ${answer==="incorrect" &&  clickedIndex === inx ? 'd-block' : 'd-none'}`} id="sadoptionA" src={require('../image/Sad-Face-Emoji.png.webp')} alt=""></img>
+                        <img className={`smile ${answer==="correct" &&  clickedIndex === inx ? 'd-block' : 'd-none'}`} id="smileoptionA" src={require('../image/Blushed-Smiling-Emoji-Free-Download-IOS-Emojis.png.webp')} alt=""></img>
+                        
                     </div>
                   );
                 })}
